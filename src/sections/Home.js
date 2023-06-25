@@ -12,7 +12,7 @@ const Home = () => {
             <Navbar />
 
 
-            <div className="container ">
+            <div className=" ">
                 <div className="pa">Hello, </div>
                 <h1 className="p">i’m Olorunfemi Damilare  <br />
                     Product & brand Designer <br />
