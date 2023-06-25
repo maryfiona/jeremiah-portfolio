@@ -1,0 +1,51 @@
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    padding: 10em;
+  }
+  
+  .contact-section h3 {
+    margin-top: 0;
+    font-size: 4em;
+  }
+  
+  .contact-section p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-section .footer-text {
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+   
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 5px;
+    
+
+  }
+  
+  .social-icons a {
+    color: #555;
+    font-size: 30px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  .social-icons a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  

@@ -1,7 +1,8 @@
 import React from "react";
 import './Home.css'
 import Navbar from '../components/Navbar'
-import FloatingImages from '../sections/FloatingImages'
+//import FloatingImages from '../sections/FloatingImages'
+import Footer from '../components/Footer'
 
 
 
@@ -23,7 +24,8 @@ const Home = () => {
                     develop intuition between technology and people.</p>
 
             </div>
-            <FloatingImages />
+            <Footer />
+            
         </>
 
     );
