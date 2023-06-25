@@ -1,0 +1,22 @@
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+  animation: levitate 3s ease-in-out infinite;
+}
+
+@keyframes levitate {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -60%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
