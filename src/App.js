@@ -3,18 +3,15 @@ import './App.css';
 
 //import Intro from './components/Intro';
 import Home from './sections/Home';
+import Footer from './components/Footer'
 
-
-//import Home from './sections/Home';
-
-
-function App() {
-  return (
+function App () {
+  return(
     <>
-    
     <Home />
+    <Footer />
     </>
-  );
-}
+  )
+};
 
 export default App;
