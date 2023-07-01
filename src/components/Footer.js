@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLinkedin, faTwitter, faInstagram, faBehance, faDribbble, faFacebook, faFigma, faMedium  } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faTwitter, faInstagram, faBehance, faDribbble, faFacebook, faFigma, faMedium  } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css'; 
 import { faTable } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,7 +11,7 @@ const Footer = () => {
         <h3>Want to Get in touch?</h3>
         <h4>Send me a mail 📩</h4>
         <ul className="social-icons">
-          <li><a href="/"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+          
           <li><a href="/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
           <li><a href="/"><FontAwesomeIcon icon={faTwitter} /></a></li>
           <li><a href="/"><FontAwesomeIcon icon={faInstagram} /></a></li>

@@ -6,23 +6,23 @@ import profile1 from '../Assets/profile1.png'
 
 const FloatingImages = () => {
   return (
-    <>
+    <React.Fragment>
 
 
-      <div className="image-container">
+      
         <div className='container'>
           <div className='row'>
-            <div className='col-md-6 text-center'>
-              <img width='200' src={profile1} alt="Levitating" />
+            <div className='col-md-6'>
+              <img width='80%' src={profile1} alt="Levitating" />
             </div>
-            <div className='col-md-6 text-center'>
-              <img width="200" src={profile2} alt="Levitating" />
+            <div className='col-md-6 '>
+              <img width="80%" src={profile2} alt="Levitating" />
             </div>
           </div>
         </div>
-      </div>
+      
 
-    </>
+    </React.Fragment>
   );
 };
 

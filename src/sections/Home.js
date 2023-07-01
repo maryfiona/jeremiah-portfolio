@@ -1,17 +1,18 @@
 import React from "react";
 import './Home.css'
 import Navbar from '../components/Navbar'
-//import FloatingImages from '../sections/FloatingImages'
+import FloatingImages from '../sections/FloatingImages'
 //import Footer from '../components/Footer'
 
 
 
 const Home = () => {
     return (
-        <>
-         <Navbar />
-                <div className="container">
-                <div className="pa">Hello,</div>
+        <div>
+            <Navbar />
+            <div className="container">
+                <div className="pa">Hello,
+                    👋</div>
                 <h1 className="p">i’m Olorunfemi Damilare  <br />
                     Product & brand Designer <br />
                     and Design instructor</h1>
@@ -22,9 +23,11 @@ const Home = () => {
                     develop intuition between technology and people.</p>
 
             </div>
-            
-            
-        </>
+
+            <FloatingImages />
+
+
+        </div>
 
     );
 }

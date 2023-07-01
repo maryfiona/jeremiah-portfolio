@@ -14,7 +14,7 @@ function closeNav() {
 }
 
   return (
-    <>
+    <div>
     <div className="container-fluid">
     <img  className="pad pt-5" width={100} src={intro} alt="intro-img" />
     </div>
@@ -22,10 +22,10 @@ function closeNav() {
 
 <div id="mySidenav" className="sidenav">
   <a href="/" className="closebtn" onClick={closeNav}>&times;</a>
-  <a className="fa fa-fw fa-home" href="/">About</a>
-  <a className="fa fa-fw fa-wrench" href="/">Services</a>
-  <a className="fa fa-fw fa-user" href="/">Clients</a>
-  <a className="fa fa-fw fa-envelope" href="/">Contact</a>
+  <a href="/">About</a>
+  <a  href="/">Services</a>
+  <a href="/">Clients</a>
+  <a href="/">Contact</a>
 </div>
 
 
@@ -37,7 +37,7 @@ function closeNav() {
 </div>
 
 
-    </>
+    </div>
   )
 
 
