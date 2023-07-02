@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css'
 import Navbar from '../components/Navbar'
 import FloatingImages from '../sections/FloatingImages'
+import Section1 from "./Section1";
 //import Footer from '../components/Footer'
 
 
@@ -11,8 +12,7 @@ const Home = () => {
         <div>
             <Navbar />
             <div className="container">
-                <div className="pa">Hello,
-                    👋</div>
+                <div className="pa">Hello, 👋</div>
                 <h1 className="p">i’m Olorunfemi Damilare  <br />
                     Product & brand Designer <br />
                     and Design instructor</h1>
@@ -25,6 +25,7 @@ const Home = () => {
             </div>
 
             <FloatingImages />
+            <Section1 />
 
 
         </div>

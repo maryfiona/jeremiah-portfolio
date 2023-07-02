@@ -13,6 +13,7 @@ const FloatingImages = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-md-6'>
+              
               <img width='80%' src={profile1} alt="Levitating" />
             </div>
             <div className='col-md-6 '>
