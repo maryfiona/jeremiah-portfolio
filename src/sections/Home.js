@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <div className="container">
+            <div className="container"> 
                 <div className="pa">Hello, 👋</div>
                 <h1 className="p">i’m Olorunfemi Damilare  <br />
                     Product & brand Designer <br />

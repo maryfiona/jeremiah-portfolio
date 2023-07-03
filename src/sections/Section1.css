@@ -1,4 +1,5 @@
 .box{
-    border: 10em;
+    border: 10em , solid;
     width: 50%;
+    height: 50%;
 }

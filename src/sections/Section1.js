@@ -8,10 +8,9 @@ const Section1 = () => {
 
             <div className="container">
                 <div className="row" >
-                    <div className="col-md-6">
-                        <div className="box">
-m,njnk
-                        </div>
+                    <div className="col-md-6 box">
+                        kjbjkbk
+                         
 
                     </div>
                     <div className="col-md-6">
