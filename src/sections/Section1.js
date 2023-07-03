@@ -9,16 +9,13 @@ const Section1 = () => {
                 <div className="row">
                     <div className="col-md-6 paa">
                         <section className="bo">
-                            dhshj
+                            
 
                         </section>
 
                     </div>
-                    <div className="col-md-6 paa">
-                    <section className="bo">
-                            dhshj
-
-                        </section>
+                    <div className="col-md-6 ">
+                    
 
                        
                         
