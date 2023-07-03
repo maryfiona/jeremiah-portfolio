@@ -1,5 +1,16 @@
-.box{
+.bo{
+    height: 10em;
     border: 10em , solid;
-    width: 50%;
-    height: 50%;
+    color: white;
+    
+    
+}
+.pa{
+    padding: 3em;
+    
+}
+.paa{
+    background-color: black;
+    border-radius: 2em;
+    width: 20em;
 }

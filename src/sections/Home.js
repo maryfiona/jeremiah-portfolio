@@ -2,9 +2,6 @@ import React from "react";
 import './Home.css'
 import Navbar from '../components/Navbar'
 import FloatingImages from '../sections/FloatingImages'
-import Section1 from "./Section1";
-//import Footer from '../components/Footer'
-
 
 
 const Home = () => {
@@ -25,7 +22,7 @@ const Home = () => {
             </div>
 
             <FloatingImages />
-            <Section1 />
+            
 
 
         </div>

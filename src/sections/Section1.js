@@ -1,30 +1,37 @@
 import React from "react";
-import './Section1.css'
+import './Section1.css';
 
 
 const Section1 = () => {
     return(
-        <div>
+        <React.Fragment>
+            <div className="container pa">
+                <div className="row">
+                    <div className="col-md-6 paa">
+                        <section className="bo">
+                            dhshj
 
-            <div className="container">
-                <div className="row" >
-                    <div className="col-md-6 box">
-                        kjbjkbk
-                         
-
-                    </div>
-                    <div className="col-md-6">
-                        <div className="box">
-
-                        </div>
+                        </section>
 
                     </div>
+                    <div className="col-md-6 paa">
+                    <section className="bo">
+                            dhshj
+
+                        </section>
+
+                       
+                        
+
+                    </div>
+
 
                 </div>
 
-
             </div>
-        </div>
+
+            
+        </React.Fragment>
     )
 
 };
