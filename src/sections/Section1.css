@@ -1,15 +1,16 @@
-.bo{
-    height: 10em;
-    border: 10em , solid;
-    color: white;
-    
-    
-}
+
 .pa{
     padding: 3em;
 }
-.paa{
-    background-color: black;
-    border-radius: 2em;
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 10em;
     width: 20em;
-}
+  }
+
+  .box p {
+    margin: 0;
+  }

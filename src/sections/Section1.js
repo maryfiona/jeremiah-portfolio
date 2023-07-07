@@ -7,27 +7,67 @@ const Section1 = () => {
         <React.Fragment>
             <div className="container pa">
                 <div className="row">
-                    <div className="col-md-6 paa">
-                        <section className="bo">
-                            
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fii</p>
 
-                        </section>
-
-                    </div>
-                    <div className="col-md-6 "> 
-                    
-
-                       
+                        </div>
                         
+                    </div>
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fona</p>
+
+                        </div>
 
                     </div>
-
+                    
 
                 </div>
 
             </div>
+            <div className="container pa">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fii</p>
 
-            
+                        </div>
+                        
+                    </div>
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fona</p>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
+            <div className="container pa">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fii</p>
+
+                        </div>
+                        
+                    </div>
+                    <div className="col-md-6">
+                        <div className="box">
+                            <p>fona</p>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+            </div>
         </React.Fragment>
     )
 
