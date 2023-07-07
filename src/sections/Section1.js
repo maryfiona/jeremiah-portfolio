@@ -1,5 +1,6 @@
 import React from "react";
 import './Section1.css';
+import Arrow from '../Assets/Arrow.png'
 
 
 const Section1 = () => {
@@ -9,7 +10,10 @@ const Section1 = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="box">
-                            <p>fii</p>
+                            <h2 className="text-light">Capiton lion</h2>
+                            <p className="pp">Web3.0 Defi specialized on music NFT Platform  </p>
+                            <p className="text-success">Visit Website <img src={Arrow} alt="Arw" /> </p>
+                             <button className="butt">Read case</button>
 
                         </div>
                         
