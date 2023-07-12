@@ -30,6 +30,8 @@ on product and brand with over 4years of experience in <br /> experiential now, 
  the digging😊.</p>
 
             </div>
+            <div>MY EXPERIENCE</div>
+            
    
 
         </React.Fragment>
