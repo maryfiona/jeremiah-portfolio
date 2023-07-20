@@ -49,10 +49,60 @@ const About = () => {
                 <div className="container text-center h">MY EXPERIENCE</div>
                 <div className="row">
                   <div className="col-md-6">
-                    <section>
-                        
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
                     </section>
                      
+                  </div>
+                  <div className="col-md-6">
+                  <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+                    <section className="bo">
+                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
+                    <p>caption lion</p>  <p>San Francisco</p>
+
+                    </section>
+
                   </div>
                 </div>
                 </div>

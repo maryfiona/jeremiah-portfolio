@@ -21,3 +21,15 @@ font-size: 4em;
     padding: 10em;
     
 }
+.bo {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:white;
+    height: 14em;
+    width: 30em;
+  }
+
+  .bo p {
+    margin: 0;
+  }
