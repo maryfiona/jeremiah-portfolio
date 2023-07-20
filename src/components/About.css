@@ -4,3 +4,20 @@
     color: green;
     margin-bottom: 2em;
 }
+.pics{
+font-size: 4em;
+}
+
+.pic{
+    font-size: 2em;
+    
+}
+.h{
+    font-size: 5em; 
+    position: relative;
+    bottom: 1em;
+}
+.pt{
+    padding: 10em;
+    
+}

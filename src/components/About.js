@@ -11,14 +11,17 @@ const About = () => {
         <React.Fragment>
             <Navbar />
 
-            <div className="text">
+            <div className="text-center h">
                 About us
+                
             </div>
             <div className="container">
 
-                <h1>i’m Olorunfemi Damilare  <br />
+               <div className="row">
+                <div className="col-md-6">
+                <h1 className="pics">i’m Olorunfemi Damilare  <br />
                 </h1>
-                <p>Hello! I'm Olorunfemi Damilare, passionate about creativity <br />
+                <h4 className="pic">Hello! I'm Olorunfemi Damilare, passionate about creativity <br />
                     on product and brand with over 4years of experience in <br /> experiential now, brand strategy, and UX design. I've helped <br />
                     build up brands and create meaningful and memorable user <br /> experiences with impactful  and visual design solutions.<br />
                     I currently work with an agency of Government on  <br />
@@ -29,18 +32,32 @@ const About = () => {
                     ensuring the user makes an effort to take the following action. <br />  So yeah call me a remote UXUI designer.
                     <br /> I love what I do, and  <br /> I'm
                     not scared  to roll up my sleeves when it comes to doing  <br />
-                    the digging😊.</p>
-                <img src={profile1} alt="experience" />
+                    the digging😊.</h4>
 
-            </div>
-            <div className="container">
-                <div>MY EXPERIENCE</div>
-                <div>
-                    1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-                    <p>caption lion</p>  <p>San Francisco</p>
                 </div>
+                <div className="col-md-6">
+                    <img  src={profile1} alt="experience" />
+                    </div>
+
+               </div>
+                    
+                
 
             </div>
+           
+            <div className="container pt">
+                <div className="container text-center h">MY EXPERIENCE</div>
+                <div className="row">
+                  <div className="col-md-6">
+                    <section>
+                        
+                    </section>
+                     
+                  </div>
+                </div>
+                </div>
+                
+                
 
 
 
