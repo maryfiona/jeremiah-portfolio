@@ -12,15 +12,15 @@ const Footer = () => {
         <h4>Send me a mail 📩</h4>
         <ul className="social-icons">
           
-          <li><a href="/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faTwitter} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faInstagram} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faBehance} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faDribbble} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faFacebook} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faFigma} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faMedium} /></a></li>
-          <li><a href="/"><FontAwesomeIcon icon={faTable} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='lkdn' icon={faLinkedin} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='titer' icon={faTwitter} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='istan' icon={faInstagram} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='beh' icon={faBehance} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='dri' icon={faDribbble} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='fb' icon={faFacebook} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='fg' icon={faFigma} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='med' icon={faMedium} /></a></li>
+          <li><a href="/"><FontAwesomeIcon className='tab' icon={faTable} /></a></li>
         </ul>
         <h4>2023 (c) All Rights Reserved. Maginations</h4>
       </div>

@@ -44,8 +44,34 @@ footer {
 
   }
   
-  .social-icons a:hover {
+  /* .social-icons a:hover {
     background-color: #555;
     color: #fff;
+  } */
+  .lkdn:hover{
+    color: rgb(19, 138, 250);
   }
-  
+  .titer:hover{
+    color: rgb(19, 138, 250);
+  }
+  .istan:hover{
+    color: palevioletred;
+  }
+  .beh:hover{
+    color: blue;
+  }
+  .dri:hover{
+    color: pink;
+  }
+  .fb:hover{
+    color: blue;
+  }
+  .fg:hover{
+    background-image: linear-gradient(pink, orange,red,green,yellow);
+  }
+  .med:hover{
+    color: rgb(2, 0, 0);
+  }
+  .tab:hover{
+    color: limegreen ;
+  }
