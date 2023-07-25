@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css';
+import photograph from '../Assets/photograph.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +8,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 // import { faUser } from '@fortawesome/free-brands-svg-icons';
 import Navbar from "./Navbar";
 import profile1 from '../Assets/profile1.png';
+
 
 
 
@@ -83,7 +85,7 @@ const About = () => {
             </section>
             <section>
               <h1> Download My Resume </h1>
-              <button> 
+              <button className="download"> 
                 <li>
                   <a href="/">
                     <FontAwesomeIcon className='fau' icon={faUser} />
@@ -119,10 +121,92 @@ const About = () => {
               <h5>Lagos Gbagada</h5>
 
             </section>
+            <section>
+              <h4 className="mt-5"> cover letter </h4>
+              <button className="download"> 
+                <li>
+                  <a href="/">
+                    <FontAwesomeIcon className='fau' icon={faUser} />
+                    </a>
+                    </li>
+                    </button>
+
+            </section>
 
           </div>
         </div>
       </div>
+
+
+
+      <h1>MY HOBBIES</h1>
+     
+     
+<div id="carouselBasicExample" className="carousel slide carousel-fade" data-mdb-ride="carousel">
+  
+  <div className="carousel-indicators">
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="0"
+      className="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-mdb-target="#carouselBasicExample"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+
+ 
+  <div className="carousel-inner">
+   
+    <div className="carousel-item active">
+      <img src={photograph} className="d-block w-100" alt="Sunset Over the City"/>
+      <div className="carousel-caption d-none d-md-block">
+        <h2>PHOTOGRAPHER</h2>
+      </div>
+    </div>
+
+    
+    <div className="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh"/>
+      <div className="carousel-caption d-none d-md-block">
+        <h2>PHOTOGRAPHER</h2>
+      </div>
+    </div>
+
+    <div className="carousel-item">
+      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+      <div className="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <button className="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 
 
 

@@ -54,6 +54,9 @@ font-size: 4em;
     color: green;
   }
   .download {
+    border:none;
+    border-radius: 0.5em;
+    background-color: black;
     
-    background-color: green;
+    
   }
