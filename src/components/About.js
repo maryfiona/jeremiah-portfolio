@@ -1,7 +1,8 @@
 import React from "react";
 import './About.css';
 import photograph from '../Assets/photograph.png'
-
+import guitar from '../Assets/guitar.png'
+import event from '../Assets/event.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,7 +19,7 @@ const About = () => {
     <React.Fragment>
       <Navbar />
 
-      <div className="text-center h">
+      <div class="text-center h">
         About us
 
       </div>
@@ -139,82 +140,33 @@ const About = () => {
 
 
 
-      <h1>MY HOBBIES</h1>
-     
-     
-<div id="carouselBasicExample" className="carousel slide carousel-fade" data-mdb-ride="carousel">
-  
-  <div className="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="0"
-      className="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
+      <h1 className="text-center">MY HOBBIES</h1>
+      <div class="container contain">
+  <div class="bo">
+    <img src={photograph} alt="photo1" />
+    <span>PHOTOGRAPH</span>
   </div>
-
- 
-  <div className="carousel-inner">
-   
-    <div className="carousel-item active">
-      <img src={photograph} className="d-block w-100" alt="Sunset Over the City"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h2>PHOTOGRAPHER</h2>
-      </div>
-    </div>
-
-    
-    <div className="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" className="d-block w-100" alt="Canyon at Nigh"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h2>PHOTOGRAPHER</h2>
-      </div>
-    </div>
-
-    <div className="carousel-item">
-      <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" className="d-block w-100" alt="Cliff Above a Stormy Sea"/>
-      <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </div>
+  <div class="bo">
+    <img src={guitar} alt="photo2" />
+    <span>PLAYING GUITAR</span>
   </div>
-
-
-  
-  <button className="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+  <div class="bo">
+    <img src={event} alt="photo3" />
+    <span>EVENT</span>
+  </div>
+  <div class="bo">
+    <img src={photograph} alt="photo4" />
+    <span>BASKETBALL</span>
+  </div>
+  <div class="bo">
+    <img src={photograph} alt="photo5" />
+    <span>Effect</span>
+  </div>
 </div>
+     
+     
 
-
-
-
-
-
-
-
-
-    </React.Fragment>
+</React.Fragment>
   )
 
 
