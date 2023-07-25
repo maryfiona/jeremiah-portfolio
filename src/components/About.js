@@ -1,5 +1,10 @@
 import React from "react";
 import './About.css';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
+// import { faUser } from '@fortawesome/free-brands-svg-icons';
 import Navbar from "./Navbar";
 import profile1 from '../Assets/profile1.png';
 
@@ -44,66 +49,82 @@ const About = () => {
 
 
       </div>
-
+     
+      
       <div className="container pt">
         <div className="container text-center h">MY EXPERIENCE</div>
         <div className="row">
           <div className="col-md-6">
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h1> 1. Product designer (Web3.0)</h1>
+              <h5>caption lion</h5>
+              <hr className="line" />
+
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h1> 2. UI designer Instructor   </h1>
+              <h5>Women Development Center</h5>
+              <hr className="line" />
+
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h1> 3. Product designer </h1>
+              <h5>Whitecanvas</h5>
+              <hr className="line" />
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h1> 4. Graphic designer  </h1>
+              <h5>Imaginaruim</h5>
+              <hr className="line" />
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h1> Download My Resume </h1>
+              <button> 
+                <li>
+                  <a href="/">
+                    <FontAwesomeIcon className='fau' icon={faUser} />
+                    </a>
+                    </li>
+                    </button>
 
             </section>
+
 
           </div>
           <div className="col-md-6">
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section>
+              <h5>Nov 2022 Till date</h5>
+              <h5>San Francisco</h5>
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section className="sept">
+              <h5>Sep 2021
+                Till date</h5>
+              <h5>Lagos Pen cinema</h5>
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section className="may">
+              <h5>May 2018 Till
+                Dec 2018</h5>
+              <h5>Lagos Opebi</h5>
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
+            <section className="nov">
+              <h5>Nov 2015 Till
+                Jan 2016</h5>
+              <h5>Lagos Gbagada</h5>
 
             </section>
-            <section className="bo">
-              1. Product designer (Web3.0)     <p>Nov 2022 Till date</p>
-              <p>caption lion</p>  <p>San Francisco</p>
-            </section>
+
           </div>
         </div>
       </div>
+
+
 
 
 

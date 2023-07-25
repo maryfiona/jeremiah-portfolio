@@ -21,7 +21,7 @@ font-size: 4em;
     padding: 10em;
     
 }
-.bo {
+/* .bo {
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 10px;
@@ -32,4 +32,28 @@ font-size: 4em;
 
   .bo p {
     margin: 0;
+  } */
+  .line{
+    width: 65em;
+    position: relative;
+    
+  }
+  .nov{
+    margin-top: 4.5em;
+  }
+  .sept{
+    margin-top: 4em;
+  }
+  .may{
+    margin-top: 3em;
+  }
+  h5{
+    color: limegreen;
+  }
+  h5:hover{
+    color: green;
+  }
+  .download {
+    
+    background-color: green;
   }
