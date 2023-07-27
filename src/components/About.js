@@ -5,10 +5,10 @@ import guitar from '../Assets/guitar.png'
 import event from '../Assets/event.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-
-// import { faUser } from '@fortawesome/free-brands-svg-icons';
 import Navbar from "./Navbar";
 import profile1 from '../Assets/profile1.png';
+import image1 from '../Assets/image1.png';
+import image11 from '../Assets/image11.png';
 
 
 
@@ -52,8 +52,8 @@ const About = () => {
 
 
       </div>
-     
-      
+
+
       <div className="container pt">
         <div className="container text-center h">MY EXPERIENCE</div>
         <div className="row">
@@ -86,13 +86,13 @@ const About = () => {
             </section>
             <section>
               <h1> Download My Resume </h1>
-              <button className="download"> 
+              <button className="download">
                 <li>
                   <a href="/">
                     <FontAwesomeIcon className='fau' icon={faUser} />
-                    </a>
-                    </li>
-                    </button>
+                  </a>
+                </li>
+              </button>
 
             </section>
 
@@ -124,13 +124,13 @@ const About = () => {
             </section>
             <section>
               <h4 className="mt-5"> cover letter </h4>
-              <button className="download"> 
+              <button className="download">
                 <li>
                   <a href="/">
                     <FontAwesomeIcon className='fau' icon={faUser} />
-                    </a>
-                    </li>
-                    </button>
+                  </a>
+                </li>
+              </button>
 
             </section>
 
@@ -141,32 +141,59 @@ const About = () => {
 
 
       <h1 className="text-center">MY HOBBIES</h1>
-      <div class="container contain">
-  <div class="bo">
-    <img src={photograph} alt="photo1" />
-    <span>PHOTOGRAPH</span>
-  </div>
-  <div class="bo">
-    <img src={guitar} alt="photo2" />
-    <span>PLAYING GUITAR</span>
-  </div>
-  <div class="bo">
-    <img src={event} alt="photo3" />
-    <span>EVENT</span>
-  </div>
-  <div class="bo">
-    <img src={photograph} alt="photo4" />
-    <span>BASKETBALL</span>
-  </div>
-  <div class="bo">
-    <img src={photograph} alt="photo5" />
-    <span>Effect</span>
-  </div>
-</div>
-     
-     
+      <div className="container contain">
+        <div className="bo">
+          <img src={photograph} alt="photo1" />
+          <span>PHOTOGRAPH</span>
+        </div>
+        <div className="bo">
+          <img src={guitar} alt="photo2" />
+          <span>PLAYING GUITAR</span>
+        </div>
+        <div className="bo">
+          <img src={event} alt="photo3" />
+          <span>EVENT</span>
+        </div>
+        <div className="bo">
+          <img src={photograph} alt="photo4" />
+          <span>BASKETBALL</span>
+        </div>
+        <div className="bo">
+          <img src={photograph} alt="photo5" />
+          <span>Effect</span>
+        </div>
+      </div>
+      <div className="container">
+        <h1 className="text-success">My Playground </h1>
+        <p>My Creativity is not a one day job lot of ideas came in, with a lot of listing to people for ideas and attention...</p>
+      </div>
 
-</React.Fragment>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <img height={455} src={image1} alt="photo5" />
+            </div>
+            <div className="col-md-6">
+              <img className="image1" src={image11} alt="photo5" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8 pt-3">
+              <img className="image22" src={image1} alt="photo5" />
+            </div>
+            <div className="col-md-4">
+              <img className="image2" src={photograph} alt="photo5" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </React.Fragment>
   )
 
 
