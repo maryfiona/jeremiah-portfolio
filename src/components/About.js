@@ -15,7 +15,7 @@ const About = () => {
     <React.Fragment>
       <Navbar />
 
-      <div class="text-center h">
+      <div className="text-center h">
         About us
 
       </div>

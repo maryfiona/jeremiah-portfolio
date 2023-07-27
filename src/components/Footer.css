@@ -44,10 +44,7 @@ footer {
 
   }
   
-  /* .social-icons a:hover {
-    background-color: #555;
-    color: #fff;
-  } */
+  
   .lkdn:hover{
     color: rgb(19, 138, 250);
   }
@@ -74,4 +71,7 @@ footer {
   }
   .tab:hover{
     color: limegreen ;
+  }
+  .more:hover{
+    color: limegreen;
   }

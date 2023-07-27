@@ -73,6 +73,9 @@ return (
           </div>
         </div>
       </section>
+      <div className="container text-center">
+        <h4 className="hov">See More on my Dribbble page and figma community</h4>
+      </div>
 
     </div>
     </React.Fragment>

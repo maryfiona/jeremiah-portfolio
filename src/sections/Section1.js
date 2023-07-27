@@ -6,6 +6,7 @@ import Arrow from '../Assets/Arrow.png'
 const Section1 = () => {
     return(
         <React.Fragment>
+            
             <div className="container pa">
                 <div className="row">
                     <div className="col-md-6">
@@ -68,9 +69,9 @@ const Section1 = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="box">
-                            <h2 className="text-light">Capiton lion</h2>
-                            <p className="pp">Web3.0 Defi specialized on music NFT Platform  </p>
-                            <p className="text-success">Visit Website <img src={Arrow} alt="Arw" /> </p>
+                            <h2 className="text-light">NGO Accreditation</h2>
+                            <p className="pp">webpage get Accredited. search for NGO nearby </p>
+                            <p className="text-success">Visit demo <img src={Arrow} alt="Arw" /> </p>
                              <button className="butt">Read case</button>
 
 
@@ -79,9 +80,9 @@ const Section1 = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="box">
-                        <h2 className="text-light">NGO Accreditation</h2>
+                        <h2 className="text-light">Stock Mobile App</h2>
                             <p className="pp">webpage get Accredited. search for NGO nearby</p>
-                            <p className="text-success">View Demo <img src={Arrow} alt="Arw" /> </p>
+                            <p className="text-success">Visit Website <img src={Arrow} alt="Arw" /> </p>
                              <button className="butt">Read case</button>
 
 
@@ -93,6 +94,7 @@ const Section1 = () => {
                 </div>
 
             </div>
+            <h4 className="container text-center see">see more </h4>
         </React.Fragment>
     )
 

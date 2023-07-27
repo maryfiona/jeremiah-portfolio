@@ -40,3 +40,6 @@
     position: relative;
     bottom: 8.5em;
    }
+   .hov:hover{
+    color: limegreen;
+   }

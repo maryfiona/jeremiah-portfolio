@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
       <div className="contact-section">
         <h3>Want to Get in touch?</h3>
-        <h4>Send me a mail 📩</h4>
+        <h4 className='more'>Send me a mail 📩</h4>
         <ul className="social-icons">
           
           <li><a href="/"><FontAwesomeIcon className='lkdn' icon={faLinkedin} /></a></li>
