@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       
-      
+      <Home />
       <Section1 />
       <About />
       <Hobbies />
