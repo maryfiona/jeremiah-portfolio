@@ -1,0 +1,42 @@
+.image1{
+    width: 35em;
+    position: relative;
+    right: 11em;
+    height: 41em;
+   }
+   .image22{
+    width: 45em;
+    height: 30em;
+   }
+   .image2{
+    position: relative;
+    right: 30em;
+    bottom: 4em;
+    width: 35em;
+   }
+   .mask{
+    position: relative;
+    bottom: 10em;
+    right: 11em;
+    width: 35.5em;
+   }
+   .back{
+    background-color: rgb(60, 60, 128);
+    width: 45em;
+    height: 35em;
+    position: relative;
+    top: 1em;
+   }
+   .mask2{
+    position: relative;
+    bottom: 9em;
+    right: 11em;
+    width: 35.5em;
+   }
+   .back2{
+    
+    width: 45em;
+    height: 46em;
+    position: relative;
+    bottom: 8.5em;
+   }
