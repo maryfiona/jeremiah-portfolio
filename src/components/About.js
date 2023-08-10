@@ -42,7 +42,9 @@ const About = () => {
               UXUI designer.
               <br /> I love what I do, and  <br /> I'm
               not scared  to roll up my sleeves when it comes to doing  <br />
-              the digging😊.</h4>
+              the digging<span role="img" aria-label="Smiley face">😀</span>
+
+</h4>
 
           </div>
           <div className="col-md-6">

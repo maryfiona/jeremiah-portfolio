@@ -12,7 +12,11 @@ const Marketing =()=>{
         <React.Fragment>
             <Navbar />
 
+            <h2 className="text-success ">Rolex Digital marketing</h2>
+
             <div className="container">
+                {/* <img />
+                <h3></h3> */}
                 
 
             </div>
