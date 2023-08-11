@@ -1,6 +1,5 @@
 import React from "react";
 import './Hobbies.css'
-import Navbar from '../components/Navbar'
 import photograph from '../Assets/photograph.png'
 import guitar from '../Assets/guitar.png'
 import event from '../Assets/event.png'
@@ -12,7 +11,7 @@ import event from '../Assets/event.png'
 const Hobbies = () => {
 return(
     <React.Fragment>
-        <Navbar/>
+     
         <h1 className="text-center">MY HOBBIES</h1>
       <div className="container contain">
         <div className="bo">

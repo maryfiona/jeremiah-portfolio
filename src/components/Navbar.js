@@ -1,6 +1,7 @@
 import React from "react"
 import './Navbar.css'
 import intro from '../Assets/intro.png'
+import { Link } from 'react-router-dom'; // Import Link
 
 const Navbar = () => {
 
@@ -22,10 +23,13 @@ const Navbar = () => {
 
       <div id="mySidenav" className="sidenav">
         <a href="/" className="closebtn" onClick={closeNav}>&times;</a>
-        <a href="About.js">About</a>
-        <a href="/">Services</a>
-        <a href="/">Clients</a>
-        <a href="/">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/Section1">Section1</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Playground">Playground</Link>
+        <Link to="/Hobbies">Hobbies</Link>
+        <Link to="/Marketing">Marketing</Link>
+
       </div>
 
 

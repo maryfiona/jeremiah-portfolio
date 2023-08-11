@@ -1,13 +1,14 @@
 import React from "react";
 import './Home.css'
-import Navbar from '../components/Navbar'
 import FloatingImages from '../sections/FloatingImages'
 
 
 const Home = () => {
+    
+        console.log('Home component rendered');
     return (
         <div>
-            <Navbar />
+            
             <div className="container"> 
                 <div className="pa">Hello, 👋</div>
                 <h1 className="p">i’m Olorunfemi Damilare  <br />

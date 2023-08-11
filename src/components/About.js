@@ -2,7 +2,7 @@ import React from "react";
 import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import Navbar from "../components/Navbar";
+
 import profile1 from '../Assets/profile1.png';
 
 
@@ -13,7 +13,7 @@ import profile1 from '../Assets/profile1.png';
 const About = () => {
   return (
     <React.Fragment>
-      <Navbar />
+     
 
       <div className="text-center h">
         About us

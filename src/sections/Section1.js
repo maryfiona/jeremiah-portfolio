@@ -6,8 +6,7 @@ import Arrow from '../Assets/Arrow.png'
 const Section1 = () => {
     return(
         <React.Fragment>
-            
-            <div className="container pa">
+             <div className="container pa">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="box">
