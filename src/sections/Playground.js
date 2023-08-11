@@ -1,6 +1,5 @@
 import React from "react";
 import './Playground.css'
-import Navbar from '../components/Navbar'
 import image1 from '../Assets/image1.png';
 import image11 from '../Assets/image11.png';
 import image2 from '../Assets/image2.png';
@@ -14,7 +13,7 @@ import mask22  from '../Assets/mask22.png';
 const Playground = () => {
 return (
    <React.Fragment>
-        <Navbar/>
+        
     <div>
          <div className="container">
         <h1 className="text-success">My Playground </h1>

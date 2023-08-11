@@ -23,7 +23,7 @@ const Footer = () => {
           <li><a href="/"><FontAwesomeIcon className='med' icon={faMedium} /></a></li>
           <li><a href="/"><FontAwesomeIcon className='tab' icon={faTable} /></a></li>
         </ul>
-        <h4>2023 (c) All Rights Reserved. fiotech</h4>
+        <h4>2023 (c) All Rights Reserved. FioCodeTech</h4>
       </div>
     </footer>
   );
