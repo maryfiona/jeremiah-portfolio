@@ -1,47 +1,39 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Intro.css'; // Import your CSS styles here
-
+import intro from '../Assets/intro.png'
 const Intro = () => {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [progress, setProgress] = useState(0);
 
-  const someAsyncAction = () => {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve();
-      }, 2000);
-    });
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (progress < 100) {
+        setProgress(progress + 10);
+      } else {
+        setIsLoading(false);
+        clearInterval(interval);
+      }
+    }, 500); // Simulate progress update every 0.5 seconds
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-
-    // Simulate an asynchronous action (e.g., API request) that takes some time
-    await someAsyncAction();
-
-    setIsLoading(false);
-  };
+    return () => {
+      clearInterval(interval);
+    };
+  }, [progress]);
 
   return (
     <div>
       {/* Conditionally render the preloader based on isLoading state */}
       {isLoading && (
-        <div id="preloader-active">
-          <div className="preloader d-flex align-items-center justify-content-center">
-            <div className="preloader-inner position-relative">
-              <div className="preloader-circle"></div>
-              <div className="preloader-img pere-text">
-                <img src="assets/intro.PNG" alt="introimage" />
-              </div>
-            </div>
+        <div className="preloader">
+          <div className="preloader-inner">
+            <div className="preloader-circle" style={{ strokeDashoffset: 314 - (314 * progress) / 100 }}></div>
+            <img  src={intro} alt='introImg'/>
+            <div className="preloader-text">{progress}%</div>
           </div>
         </div>
       )}
 
-      <form onSubmit={handleSubmit}>
-        {/* Your form inputs and elements */}
-        
-      </form>
+      {/* Your content here */}
     </div>
   );
 };
